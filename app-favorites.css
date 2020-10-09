@@ -1,0 +1,267 @@
+body {
+    background-color: #fafafa;
+    margin: 0;
+    padding: 0;
+    font-family: 'Inconsolata', monospace;
+}
+
+header {
+    width: auto;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    width: 550px;
+    color: #828282;
+}
+
+.header a:hover {
+    font-size: 20px;
+    color: #474747;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+li {
+    list-style-type: none;
+}
+
+a,
+a:hover,
+a:focus,
+a:active {
+    transition: 0.5s;
+    text-decoration: none;
+    color: inherit;
+}
+
+link:hover,
+link:visited,
+link:link,
+link:active {
+    text-decoration: none;
+    text-decoration-style: none;
+}
+
+.carre {
+    margin-top: 5px;
+    width: 10px;
+    height: 10px;
+    background-color: #e4e2e2;
+    transform: rotate(45deg);
+}
+
+.video {
+    width: 100%;
+}
+
+.contenaire {
+    padding: 0 20%;
+    background-color: #2b3140ee;
+    display: flex;
+    position: absolute;
+}
+
+#book {
+    margin-top: 18%;
+    margin-right: 20px;
+}
+
+#Accueil {
+    color: #b6bbc8;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+h1 {
+    color: #2b3140;
+    text-align: center;
+    margin: 80px;
+}
+
+h4,
+h3 {
+    color: #d44e4e;
+}
+
+h3:hover {
+    text-decoration: underline;
+}
+
+h2 {
+    color: #fafafa;
+}
+
+p {
+    color: #777777;
+    margin: 5px;
+}
+
+.jeux img {
+    width: 550px;
+}
+
+.jeu1 {
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.jeu1text {
+    margin-left: 10%;
+    width: 450px;
+}
+
+.jeu2 {
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+}
+
+.jeu2text {
+    margin-right: 10%;
+    text-align: end;
+    width: 450px;
+}
+
+#Newsletter {
+    width: 100%;
+    height: 250px;
+    background-color: #2b3140ee;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+}
+
+#Newsletter:hover {
+    height: 270px;
+    transition: 0.5s;
+}
+
+#Newsletter h2 {
+    margin-bottom: 50px;
+}
+
+.contact input {
+    width: 300px;
+    display: block;
+    background: none;
+    border: 0;
+    border-bottom: 2px solid #fafafa;
+    margin: 10px;
+    outline: none;
+    color: #fafafa;
+    transition: 0.5s;
+}
+
+input:focus {
+    padding: 10px 25px;
+    border: 1px solid #fafafa;
+    transition: 0.5s;
+    font-size: 15px;
+}
+
+input[type="submit"] {
+    padding: 5px 10px;
+    cursor: pointer;
+    border: 2px solid #d44e4e;
+    font-size: 15px;
+    transition: 0.5s;
+}
+
+input[type="submit"]:hover {
+    font-size: 20px;
+    background-color: #d44e4e;
+    transition: 0.5s;
+}
+
+#Contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+}
+
+#Contact input {
+    width: 300px;
+    display: block;
+    background: none;
+    border: 0;
+    margin-bottom: 25px;
+    border-bottom: 2px solid #2b3140ee;
+    outline: none;
+    color: #2b3140ee;
+    transition: 0.5s;
+}
+
+#Contact input:focus {
+    padding: 10px 25px;
+    border: 1px solid #2b3140ee;
+    transition: 0.5s;
+    font-size: 15px;
+}
+
+textarea {
+    resize: none;
+    outline: none;
+}
+
+#Contact input[type="submit"] {
+    padding: 5px 10px;
+    cursor: pointer;
+    border: 1px solid #2b3140ee;
+    font-size: 15px;
+    transition: 0.5s;
+}
+
+#Contact input[type="submit"]:hover {
+    font-size: 20px;
+    color: #fafafa;
+    background-color: #2b3140ee;
+    transition: 0.5s;
+}
+
+.reseau {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+    background-color: #2b3140ee;
+    font-size: 35px;
+    color: #fafafa;
+}
+
+i {
+    margin: 15px
+}
+
+i:hover {
+    color: #d44e4e;
+}
+
+.rights {
+    color: #fafafa;
+    background-color: #d44e4e;
+}
+
+.rightsp {
+    margin: 0;
+    color: #fafafa;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="app-favorites.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>App Favoites</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="header">
+            <ul>
+                <li><a href="#Accueil">Accueil</a></li>
+                <li><a href="#Jeux">Jeux</a></li>
+                <li>
+                    <div class="carre"></div>
+                </li>
+                <li><a href="#Newsletter">Newsletter</a></li>
+                <li><a href="#Contact">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <section id="Accueil">
+            <video autoplay muted loop src="videos/Cat Bird.mp4" class="video"></video>
+            <div class="contenaire">
+                <div>
+                    <img id="book" src="images/content-logo.gif" alt="Photo">
+                </div>
+                <div>
+                    <h2>Independent Games Studio</h2>
+                    <p>Creating experiences with collaborative minds. Raiyumi is founded by Ryan Carag. An artist / designer / programmer - dedicated toward crafting polished games with a strong focus on art and player interaction.</p>
+                </div>
+            </div>
+        </section>
+        <section id="Jeux">
+            <div>
+                <h1>Jeux disponible</h1>
+                <div class="jeu1">
+                    <div>
+                        <a href="app1.html"><img src="images/boost buddies/boostbuddies.png" alt="Photo boost buddies"></a>
+                    </div>
+                    <div class="jeu1text">
+                        <a href="app1.html">
+                            <h3>Boost Buddies</h3>
+                        </a>
+                        <p>Rejoignez la légion de Boost Buddies pour vous libérer des dangers extrêmes ou tester vos compétences avec les défis de niveau. Pouvez-vous survivre et vous libérer de la grotte?</p>
+                        <h4>Avec</h4>
+                        <p>20 pistes de musique uniques 1 pour chaque personnage</p>
+                        <p> Des centaines de défis d'obstacles.</p>
+                        <p> Graphiques pixel art élégants et époustouflants.</p>
+                        <p> Réalisations et classements pour rivaliser avec les autres.</p>
+                        <p>Testez vos compétences avec le mode niveau.</p>
+                        <a href="app1.html">
+                            <h3>voir plus...</h3>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="jeu2">
+                    <div>
+                        <a href="app2.html"><img src="images/cat bird/catbird.png" alt="Photo boost buddies"></a>
+                    </div>
+                    <div class="jeu2text">
+                        <a href="app2.html">
+                            <h3>Cat bird</h3>
+                        </a>
+                        <p>Aventurez-vous à travers des mondes uniques planant à travers des fosses, des pièges, des ennemis et des lames de scie. Méfiez-vous des puissants gardiens qui bloquent votre chemin. Rejoignez le voyage et ouvrez votre miaulement
+                            intérieur!
+                        </p>
+                        <h4>Avec</h4>
+                        <p>Plus de 50 niveaux difficiles.</p>
+                        <p>4 boss épiques à défier.</p>
+                        <p>Graphiques pixel art élégants et époustouflants.</p>
+                        <p>Réalisations et classements pour rivaliser avec les autres.</p>
+                        <p>Testez vos compétences en mode contre-la-montre.</p>
+                        <a href="app2.html">
+                            <h3>voir plus...</h3>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="jeu1">
+                    <div>
+                        <a href="app3.html"><img src="images/bubble tale/bubbletale.png" alt="Photo boost buddies"></a>
+                    </div>
+                    <div class="jeu1text">
+                        <a href="app3.html">
+                            <h3>Bubble Tale</h3>
+                        </a>
+                        <p>Un nouveau jeu indépendant avec des jeux de plateforme rétro et un style pixel art. Ce magnifique jeu de plateforme d'arcade vous emmène dans le monde magique rétro du pixel. Déverrouillez une petite fée et sa magie féerique pour
+                            vous accompagner dans un voyage périlleux et mener à bien la quête de bulles.</p>
+                        <h4>Avec</h4>
+                        <p>3 mondes mignons uniques à exécuter et à compléter.</p>
+                        <p>Jouer à 30 niveaux et plus</p>
+                        <p>Découvrez des secrets cachés et exlorer de nouvelles terres</p>
+                        <p>Gamelay facile à apprendre et addictif</p>
+                        <a href="app3.html">
+                            <h3>voir plus...</h3>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="contact">
+            <section>
+                <form id="Newsletter">
+                    <div>
+                        <h2>inscrivez vous à la newsletter</h2>
+                    </div>
+                    <div>
+                        <label for="email_s"></label>
+                        <input type="email" name="adresse email" id="email_s" placeholder="Adresse E-mail" required>
+                    </div>
+                    <div>
+                        <input type="submit" value="souscrire">
+                    </div>
+                </form>
+            </section>
+
+            <section>
+                <form id="Contact">
+                    <h1>Contactez-nous</h1>
+                    <label for="name"></label>
+                    <input type="text" name="nom" id="name" placeholder="Votre Nom*" required>
+
+                    <label for="email_c"></label>
+                    <input type="email" name="Adreese email" id="email_c" placeholder="Adresse E-mail*">
+
+                    <label for="sujet"></label>
+                    <input type="text" name="sujet" id="sujet" placeholder="Sujet">
+
+                    <label for="message"></label>
+                    <textarea name="message" id="message" cols="50" rows="10" placeholder="Votre message*"></textarea>
+
+                    <input type="submit" value="Envoyer">
+                </form>
+            </section>
+        </section>
+    </main>
+
+    <footer>
+        <div class="reseau">
+            <i class="fa fa-facebook-square" aria-hidden="true"><a href="https://www.facebook.com/raiyumiclub"></a></i>
+            <i class="fa fa-youtube-square" aria-hidden="true"><a href="https://www.youtube.com/channel/UCbyboLTOKpXToaLQu6biWFA"></a></i>
+            <i class="fa fa-instagram" aria-hidden="true"><a href="https://www.instagram.com"></a></i>
+        </div>
+        <div class="rights">
+            <p class="rightsp">Laplateforme. © 2020 all rights reserved</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>

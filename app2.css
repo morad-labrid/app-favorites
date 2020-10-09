@@ -1,0 +1,193 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inconsolata', monospace;
+    background: rgb(50, 22, 21);
+    background: radial-gradient(circle, rgba(50, 22, 21, 1) 7%, rgba(3, 20, 41, 1) 100%);
+    color: #fafafa;
+}
+
+
+/* header */
+
+header {
+    width: auto;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    width: 550px;
+    color: #fafafa;
+}
+
+.header a:hover {
+    font-size: 20px;
+    padding: 5px 10px;
+    border: 1px solid #fafafa;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+li {
+    list-style-type: none;
+}
+
+a,
+a:hover,
+a:focus,
+a:active {
+    transition: 0.5s;
+    text-decoration: none;
+    color: inherit;
+}
+
+link:hover,
+link:visited,
+link:link,
+link:active {
+    text-decoration: none;
+    text-decoration-style: none;
+}
+
+.carre {
+    margin-top: 5px;
+    width: 10px;
+    height: 10px;
+    background-color: #e4e2e2;
+    transform: rotate(45deg);
+}
+
+
+/* fin de header */
+
+
+/* footer */
+
+.reseau {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+    background-color: #2b3140ee;
+    font-size: 35px;
+    color: #fafafa;
+}
+
+i {
+    margin: 15px
+}
+
+i:hover {
+    color: #d44e4e;
+}
+
+.rights {
+    color: #fafafa;
+    background-color: #d44e4e;
+}
+
+.rightsp {
+    margin: 0;
+    color: #fafafa;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* fin footer */
+
+h1 {
+    font-size: 70px;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.screen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 60px;
+    margin-top: 120px;
+}
+
+.screen img {
+    width: 300px;
+    height: 150px;
+    border: 2px solid #fafafa;
+    margin: 5px;
+    transition: 0.5s;
+}
+
+.screen img:hover {
+    width: 450px;
+    height: 225px;
+    transition: 0.5s;
+}
+
+.des {
+    display: flex;
+    justify-content: center;
+}
+
+.description {
+    width: 80%;
+    text-align: center;
+    margin-bottom: 120px;
+}
+
+.com {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.comment {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(187, 187, 207, 0.082);
+    border-radius: 25px;
+    padding: 15px;
+    margin-bottom: 25px;
+}
+
+.commentaire {
+    display: flex;
+}
+
+.com .commentaire img {
+    border-radius: 50px;
+}
+
+.commentaire h3 {
+    margin-left: 15px;
+    height: 50px;
+}
+
+.comment p {
+    margin-left: 65px;
+}
+
+.telelechager {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.telelechager img {
+    margin: 20px;
+}
